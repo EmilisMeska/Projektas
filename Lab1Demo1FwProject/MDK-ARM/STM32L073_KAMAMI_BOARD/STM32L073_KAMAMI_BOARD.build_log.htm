@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Emilis Meskauskas
+Kaunas Technology University
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: May 13 2025
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.40.0.3
+Toolchain Path:  D:\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\Iterptiniu sistemos projektinis\Lab1Demo1FwProject\MDK-ARM\STM32L073_KAMAMI_BOARD.uvprojx
+Project File Date:  05/06/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Keil\ARM\ARMCLANG\Bin'
+Rebuild target 'STM32L073_KAMAMI_BOARD'
+../Core/Src/main.c(241): warning: non-void function does not return a value [-Wreturn-type]
+  241 | }
+      | ^
+1 warning generated.
+compiling main.c...
+compiling ssd1306.c...
+compiling stm32l0xx_hal_adc_ex.c...
+compiling stm32l0xx_hal_msp.c...
+assembling startup_stm32l073xx.s...
+compiling stm32l0xx_hal_adc.c...
+compiling stm32l0xx_hal.c...
+compiling fonts.c...
+compiling stm32l0xx_hal_i2c_ex.c...
+compiling stm32l0xx_hal_i2c.c...
+compiling stm32l0xx_it.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_flash_ramfunc.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_dma.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_exti.c...
+compiling stm32l0xx_hal_tim.c...
+compiling stm32l0xx_hal_tim_ex.c...
+compiling stm32l0xx_hal_uart.c...
+compiling stm32l0xx_hal_uart_ex.c...
+compiling system_stm32l0xx.c...
+compiling Statechart.c...
+D:/Keil/Keil/ARM_Compiler/1.7.2/Source/EventRecorder.c(986): warning: "Invalid Time Stamp Source selected in EventRecorderConf.h!" [-W#warnings]
+  986 | #warning "Invalid Time Stamp Source selected in EventRecorderConf.h!"
+      |  ^
+1 warning generated.
+compiling EventRecorder.c...
+linking...
+Program Size: Code=34388 RO-data=4472 RW-data=20 ZI-data=4724  
+FromELF: creating hex file...
+"STM32L073_KAMAMI_BOARD\STM32L073_KAMAMI_BOARD.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.ARM_Compiler.1.7.2.pack
+                Keil::ARM_Compiler@1.7.2
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.5.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32L0xx_DFP.2.3.0.pack
+                Keil::STM32L0xx_DFP@2.3.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Compiler
+  ./RTE/_STM32L073_KAMAMI_BOARD
+  D:/Keil/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Keil/Keil/ARM_Compiler/1.7.2/Include
+  D:/Keil/Keil/STM32L0xx_DFP/2.3.0/Drivers/CMSIS/Device/ST/STM32L0xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+
+   * Component: Keil::Compiler&ARM Compiler:Event Recorder&DAP@1.5.1
+      Source file:   Source/EventRecorder.c
+      Include file:  Config/EventRecorderConf.h
+      Include file:  Include/EventRecorder.h
+Build Time Elapsed:  00:00:14
+</pre>
+</body>
+</html>

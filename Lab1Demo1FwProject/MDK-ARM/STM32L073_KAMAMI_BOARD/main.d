@@ -1,0 +1,36 @@
+stm32l073_kamami_board/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h \
+  ..\Core\Inc\stm32l0xx_hal_conf.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l073xx.h \
+  ..\Drivers\CMSIS\Include\core_cm0plus.h \
+  ..\Drivers\CMSIS\Device\ST\STM32L0xx\Include\system_stm32l0xx.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_exti.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_adc_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_tim_ex.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h \
+  ..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h \
+  D:\itemirsCREATE\Lab1Demo1\src\sc_types.h \
+  D:\itemirsCREATE\Lab1Demo1\src-gen\Statechart.h \
+  D:\itemirsCREATE\Lab1Demo1\src-gen\..\src\sc_types.h \
+  D:\itemirsCREATE\Lab1Demo1\src-gen\Statechart_required.h \
+  ..\ssd1306-stm32HAL-master\lib\ssd1306.h \
+  ..\ssd1306-stm32HAL-master\lib\fonts.h \
+  D:\Keil\Keil\ARM_Compiler\1.7.2\Include\EventRecorder.h
